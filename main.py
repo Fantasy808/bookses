@@ -72,12 +72,12 @@ while True:
     print('1.Добавить книгу\n2.Просмотреть книги\n3.Удалить книгу по названию\n4.Найти книгу\n5.Перезапись')
     choise = int(input())
     if choise == 1:
-        add_book()
+        add()
     elif choise == 2:
-        look_book()
+        look()
     elif choise == 3:
-        delete_book()
+        delete()
     elif choise == 4:
-        search_book()
+        search()
     elif choise == 5:
         replaceable()
